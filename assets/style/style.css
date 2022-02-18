@@ -1,0 +1,139 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url(assets/images/pattern-background-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#card {
+  width: 340px;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+#card #image-area img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#card #content-area {
+  padding: 30px;
+}
+
+#card #content-area #text-area h1 {
+  font-size: 22px;
+  margin: 0;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  padding-bottom: 20px;
+  letter-spacing: 0.1px;
+}
+#card #content-area #text-area p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 25px;
+  margin: 0 5px;
+}
+
+#card #content-area #plan-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: -1px;
+  background: hsl(225, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+}
+#card #content-area #plan-area img {
+  height: 100%;
+}
+#card #content-area #plan-area #plan-text {
+  margin-right: 20px;
+}
+#card #content-area #plan-area h2 {
+  margin: 0;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+#card #content-area #plan-area p {
+  margin: 0;
+}
+#card #content-area #plan-area #plan-change a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  padding-left: 10px;
+}
+#card #content-area #plan-area #plan-change a:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+#card #content-area #pay-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+#card #content-area #pay-area input {
+  width: 100%;
+  padding: 15px;
+  background: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0px 25px 31px -15px rgba(0, 0, 0, 0.27);
+  margin-bottom: 20px;
+  border: none;
+}
+#card #content-area #pay-area input:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+#card #content-area #pay-area a {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+#card #content-area #pay-area a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-size: 700;
+}
+a {
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  max-width: 900px;
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url(/assets/images/pattern-background-desktop.svg);
+  }
+}
