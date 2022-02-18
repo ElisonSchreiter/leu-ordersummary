@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(assets/images/pattern-background-mobile.svg);
+  background: url(/assets/images/pattern-background-mobile.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
@@ -27,6 +27,8 @@ main {
   text-align: center;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 #card #image-area img {
@@ -44,15 +46,15 @@ main {
   margin: 0;
   color: hsl(223, 47%, 23%);
   font-weight: 900;
-  padding-bottom: 20px;
+  padding-bottom: 17px;
   letter-spacing: 0.1px;
 }
 #card #content-area #text-area p {
   margin: 0;
   font-size: 16px;
   line-height: 25px;
-  padding-bottom: 25px;
   margin: 0 5px;
+  margin-bottom: 25px;
 }
 
 #card #content-area #plan-area {
@@ -61,7 +63,7 @@ main {
   align-items: center;
   letter-spacing: -1px;
   background: hsl(225, 100%, 98%);
-  padding: 15px;
+  padding: 13px;
   border-radius: 10px;
 }
 #card #content-area #plan-area img {
@@ -93,7 +95,7 @@ main {
 #card #content-area #pay-area {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 #card #content-area #pay-area input {
   width: 100%;
@@ -129,7 +131,7 @@ a {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -138,6 +140,9 @@ a {
 
 @media (min-width: 700px) {
   body {
-    background-image: url(/assets/images/pattern-background-desktop.svg);
+    background-image: url(assets/images/pattern-background-desktop.svg);
+  }
+  #card {
+    width: 450px;
   }
 }
