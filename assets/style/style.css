@@ -140,8 +140,8 @@ a {
 
 @media (min-width: 700px) {
   body {
-    background-image: url(assets/images/pattern-background-desktop.svg);
-  }
+    background-image: url(leu-ordersummary/assets/images/pattern-background-desktop.svg);
+  }                 
   #card {
     width: 450px;
   }
