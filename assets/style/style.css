@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url(/assets/images/pattern-background-mobile.svg);
+  background: url(./assets/images/pattern-background-mobile.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
@@ -140,7 +140,7 @@ a {
 
 @media (min-width: 700px) {
   body {
-    background-image: url(leu-ordersummary/assets/images/pattern-background-desktop.svg);
+    background-image: url(../assets/images/pattern-background-desktop.svg);
   }                 
   #card {
     width: 450px;
